@@ -8,10 +8,12 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+html{
+    font-family: "Roboto", sans-serif;
+}
 .w3-card-4, .w3-card, .w3-container {
-    border-radius: 30px; /* Membuat sudut lebih halus */
-    overflow: hidden; /* Menghindari elemen dalamnya keluar dari radius */
+    border-radius: 30px; 
+    overflow: hidden; 
 }
 
 .w3-flex {
@@ -19,10 +21,29 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     align-items: center;
 }
 .w3-flex img {
-    border-radius: 10px; /* Agar gambar juga punya sudut halus */
+    border-radius: 10px;
 }
 
+.w3-display-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-top:15px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w3-display-container h2 {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
 </style>
+
 </head>
 <body class="w3-light-grey">
 
@@ -37,47 +58,47 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-          <img src="profile.jpg" style="width:100%" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
+          <img src="profile.jpg" alt="Avatar" class="profile-img">
+          <div class="profile-name">
             <h2>Dian Islami</h2>
           </div>
         </div>
         <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Mahasiswa Informatika Aktif USK</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Banda Aceh, Aceh</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>dianislami553@gmail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+62 821 6273 4684</p>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue"></i>Mahasiswa Informatika Aktif USK</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-blue"></i>Banda Aceh, Aceh</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue"></i>dianislami553@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-blue"></i>+62 821 6273 4684</p>
           <hr>
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-blue"></i>Skills</b></p>
           <p>UI/UX Designer</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:98%">98%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:98%">98%</div>
           </div>
           <p>Web Development</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:80%">
               <div class="w3-center w3-text-white">80%</div>
             </div>
           </div>
           <p>Canva & Figma</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:98%">98%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:98%">98%</div>
           </div>
           <p>Ms. Word & Ms.Excel</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:80%">80%</div>
           </div>
           <br>
 
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-blue"></i>Languages</b></p>
           <p>Indonesian</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+            <div class="w3-round-xlarge w3-blue" style="height:24px;width:100%"></div>
           </div>
           <p>English</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:80%"></div>
+            <div class="w3-round-xlarge w3-blue" style="height:24px;width:80%"></div>
           </div>
           <br>
         </div>
@@ -90,64 +111,64 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <div class="w3-twothird">
     
       <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Pendidikan </h2>
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Pendidikan </h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Universitas Syiah Kuala</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2023 - <span class="w3-tag w3-teal w3-round">Sekarang</span></h6>
+          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2023 - <span class="w3-tag w3-blue w3-round">Sekarang</span></h6>
           <p>Mahasiswa Aktif Informatika Fakultas MIPA</p><br>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>PKBM Tunas Jeumpa</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2022 - 2023</h6>
+          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2022 - 2023</h6>
           <p>Program Kesetaraan / Paket C</p>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Dayah MUDI Mesra Samalanga</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 - 2022</h6>
+          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 - 2022</h6>
           <p>Pesantren Tradisional</p>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>MTsS Jeumala Amal</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - 2019</h6>
+          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - 2019</h6>
           <p>Pesantren Modern</p>
           <hr>
         </div>
       </div>
 
       <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Sertifikasi</h2>
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Sertifikasi</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>ASEAN Data Science Explorers</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2024</h6>
+          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2024</h6>
           <p>Partisipan SAP Analytics Cloud and SAP Build Apps Online Training Session</p>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Huawei OpenEuler Course</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2024</h6>
+          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2024</h6>
           <p>Course HCIA Open Euler by Huawei</p>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>RevoU Fundamental Course Intro to Software Engineering</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2025</h6>
+          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2025</h6>
           <p>2 Weeks Online Course</p><br>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>DQLAB Mini Bootcamp Introduction to Data Analytics</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2025</h6>
+          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2025</h6>
           <p>Bootcamp DQLab Data Analytics with Excel, Python, & SQL</p><br>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>FreeCodeCamp Responsive Web Design</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2025</h6>
+          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2025</h6>
           <p>HTML & CSS Course</p><br>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>FreeCodeCamp JavaScript Algorithms and Data Structures</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2025</h6>
+          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2025</h6>
           <p>JavaScript Algorithms & Data Structures Course</p><br>
         </div>
       </div>
@@ -161,7 +182,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   <!-- End Page Container -->
 </div>
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
+<footer class="w3-container w3-blue w3-center w3-margin-top">
   <p>Find me on social media.</p>
   <i class="fa fa-facebook-official w3-hover-opacity"></i>
   <i class="fa fa-instagram w3-hover-opacity"></i>
